@@ -67,7 +67,7 @@ You are ready to install the package. Press the Install button (scroll up to see
 
 Check that the Bridge-utils package has been installed as well. From the ubuntu Software Center, type in the search box bridge-utils and you should see it already installed. If not, install it
  
- ![image](https://github.com/MaheshS03/Ex-05-KVM-Installation-on-Ubuntu/assets/128498431/d2727bdb-a4c1-4853-a1e9-f433ebb12482)
+![image](https://github.com/MaheshS03/Ex-05-KVM-Installation-on-Ubuntu/assets/128498431/557b901a-3d56-4053-a022-d71580bbbdbb)
 
 If you prefer to use the command line ( slightly faster), simply type the following command and wait for the installation to complete.
 
@@ -84,7 +84,7 @@ After the installation complete, you can try to connect to the management interf
 
 The application will start but you will get immediately an error message. (see screenshot)
 
-![image](https://github.com/MaheshS03/Ex-05-KVM-Installation-on-Ubuntu/assets/128498431/ec8d47e9-7706-48bb-a5da-b01eafaea3e1)
+![image](https://github.com/MaheshS03/Ex-05-KVM-Installation-on-Ubuntu/assets/128498431/0ba3d5fc-32fb-42f9-b09f-bf54685209c8)
 
 Actually, you need to create a new user on your system and to add this user to a specific group (called libvirtd). This will basically grant the right to use the Virt-manager interface. With Ubuntu 12.04, it simply easier to perform the group creation from the command line. By default, Ubuntu 12.04 does not come with a utility to manage groups.
 
